@@ -1,0 +1,71 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── Generated plot images (reproducible from notebook) ───────────────────────
+eda_overview.png
+geo_heatmap.png
+log_transform.png
+correlation_analysis.png
+hyperparam_search.png
+actual_vs_predicted.png
+residual_analysis.png
+learning_curves.png
+error_by_range.png
+cv_distribution.png
+baseline_comparison.png
+feature_importance.png
+final_dashboard.png
+sample_predictions.png
+
+# ── Data files (large / proprietary) ─────────────────────────────────────────
+housing_dataset/data.csv
+*.csv
+*.xlsx
+*.parquet
+
+# ── Model artefacts ───────────────────────────────────────────────────────────
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# ── OS & editor junk ─────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ── Distribution / packaging ──────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+
+# ── Testing & coverage ────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
