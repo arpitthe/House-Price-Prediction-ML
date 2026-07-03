@@ -152,53 +152,6 @@ The notebook generates several analytical visualizations including:
 
 ---
 
-# 📷 Sample Outputs
-
-## Final Dashboard
-
-> *(Insert Final Dashboard Screenshot Here)*
-
----
-
-## Geographic Heatmap
-
-> *(Insert Geographic Heatmap Screenshot Here)*
-
----
-
-## Actual vs Predicted
-
-> *(Insert Actual vs Predicted Screenshot Here)*
-
----
-
-## Correlation Analysis
-
-> *(Insert Correlation Analysis Screenshot Here)*
-
----
-
-# 📁 Project Structure
-
-```
-House-Price-Prediction/
-│
-├── dataset/
-│   └── kc_house_data.csv
-│
-├── House_Price_Prediction.ipynb
-│
-├── images/
-│
-├── requirements.txt
-│
-├── README.md
-│
-└── .gitignore
-```
-
----
-
 # ⚙ Installation
 
 Clone the repository
